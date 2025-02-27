@@ -1,0 +1,59 @@
+@charset "utf-8";
+.contacth1 {
+    color: #ec681b; margin-left:420px;
+    font-family: 'Dancing Script', cursive;
+   margin-left:650px;
+   font-size: 50px;
+    
+}
+
+#pp {
+   margin-left:420px; 
+}
+h2{ font-family: 'Dancing Script', cursive;color: #1e97c8;}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left:420px;
+}
+
+.contact-info div {
+    width: 48%;
+}
+.mm{ font-family: 'Dancing Script', cursive;}
+.ins {
+    
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-left:400px;
+}
+.ins td {
+    padding: 5px;/*espace entre les cellules*/
+}
+.ins input[type="submit"] {
+    padding: 10px 20px;
+    background-color:#417ccd;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ins input[type="submit"]:hover {
+    background-color: #dbeaff;
+}
+
+iframe {
+width: 45%;
+height: 300px;
+border: 2px solid;
+border-radius: 10px;
+margin-left:400px;
+margin-top:40px;
+}

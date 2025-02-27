@@ -1,0 +1,125 @@
+@charset "utf-8";
+ 
+body{
+
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+   
+   
+}
+
+.ig1{
+    margin-top:0px;
+    margin-left:330px;
+width:700px;
+height:400px;
+
+}
+
+.head {
+    text-align: center; /* Centrez le contenu horizontalement */
+    padding: 5px; /* Ajoutez de l'espace autour du contenu */
+    background-color: #ffffff; /* Arrière-plan du titre et de l'image */
+}
+
+/* Style du titre */
+
+    .bien {
+        font-size: 50px; 
+        margin-left: 300px;
+        color: #ec681b;
+        text-shadow: 2px 2px 4px #ec854a;
+    }
+    
+    
+
+
+/* Style de l'en-tête de la page */
+
+
+.par{width:900px;margin-left:330px;}
+.sp1{
+    font-size: 25px; /* Taille du titre */
+
+        color: #ec681b;
+        font-family: Dancing Script;}
+#school-logo {
+    width: 250px; /* Largeur de l'image du logo */
+    height: 220px; /* Hauteur de l'image du logo (corriger la valeur manquante) */
+    border-radius: 5%;
+    margin-left:36px;
+     /* Arrondir l'image du logo */
+}
+
+/* Style du menu */
+
+.menu {
+    width: 320px; /* Largeur du menu */
+    height: 100%; /* Hauteur à 100% de la page */
+    background-color: #fff4df;
+    float: left; /* Alignement du menu à gauche */
+    position: fixed;
+    top:0;
+}
+
+/* Style des éléments du menu */
+.menu-item {
+    display: flex; /* Affichage en mode flex pour les éléments du menu */
+    text-decoration: none; /* Suppression de la décoration de texte (liens) */
+    color: black; /* Couleur du texte des éléments du menu */
+    font-weight: bold; /* Épaisseur du texte en gras */
+    padding: 25px; /* Rembourrage des éléments du menu */
+    margin-bottom: 10px; /* Marge en bas des éléments du menu */
+     /* Coins arrondis des éléments du menu */
+    transition: background-color 0.3s ease; /* Transition de couleur de fond lors du survol */
+}
+
+/* Style au survol des éléments du menu */
+.menu-item:hover {
+    background-color: #fffefb; /* Changement de couleur de fond lors du survol */
+}
+.video{ margin-left:480px;}
+/* Style des icônes */
+.icon {
+    width: 30px; /* Largeur des icônes */
+    height: 22px; /* Hauteur des icônes */
+    vertical-align: middle; /* Alignement vertical au milieu */
+    margin-right: 10px; /* Marge à droite des icônes */
+}
+
+.membres{display:inline;}
+footer {
+    background-color: #ec681b; /* Couleur de fond du pied de page */
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Espace intérieur du pied de page */
+    text-align: center; /* Alignement du texte au centre */
+    margin-top:200px;
+ margin-left:300px;
+ display:flex;
+ justify-content: space-evenly;
+ 
+}
+
+footer h3 {
+    color: #FFD700; /* Couleur du texte pour les titres */
+}
+
+footer ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime l'espacement par défaut de la liste */
+}
+
+footer li {
+    margin-bottom: 10px; /* Espace entre les éléments de la liste */
+}
+
+footer a {
+    color: #00BFFF; /* Couleur des liens dans le pied de page */
+    text-decoration: none; /* Supprime la soulignement par défaut des liens */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Soulignement lorsqu'on survole le lien */
+}
+.mm{ font-family: 'Dancing Script', cursive;}

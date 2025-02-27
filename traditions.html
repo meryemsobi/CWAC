@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" type="text/css" href="pageacceuil.css">
+    <link rel="stylesheet" type="text/css" href="fpt.css">
+    <link rel="icon" href="p2.png" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Traditions </title>
+    <script >
+        function toggleDashboardCard(card) {
+            const content = card.querySelector('.dashboard-card-content');
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+    
+</head>
+<body>
+    <main>
+    <div class="page">
+        <nav class="menu">
+            <header>
+                <a href="index.html"> 
+                    <img src="p2.png" alt="Logo de l'école" id="school-logo">
+                </a>
+            </header>
+    
+            <a class="menu-item" href="Formations.html"><img class="icon" src="formation.png" alt="formations">Formations</a>
+            <a class="menu-item" href="plats.html"><img class="icon" src="plats.png" alt="plats">A la découverte des plats </a>
+            <a class="menu-item" href="traditions.html"><img class="icon" src="traditions.png" alt="traditions">A la découverte des traditions </a>
+            <a class="menu-item" href="infos.html"><img class="icon" src="contact.png" alt="infoscontact">Informations de contact</a>
+        </nav>
+        <h1 class="form">Traditions </h1>
+        <div class="formations-images">
+            <div class="row">
+                <div class="image1">
+                    <a href="chinetradition.html">
+                    <div class="dashboard-card1" onclick="toggleDashboardCard(this)">
+                        <h5 class="dashboard-card-title">Formation 1</h5>
+                        <img class="dashboard-card-image" src="chine.png" alt="Formation 1">
+                       
+                        
+                    </div>
+                </a>
+                </div>
+                <div class="image2">
+                    <a href="congotradition.html">
+                    <div class="dashboard-card2" onclick="toggleDashboardCard(this)">
+                        <h5 class="dashboard-card-title">Formation 2</h5>
+                        <img class="dashboard-card-image" src="congo.png" alt="Formation 2">
+                       
+                       
+                    </div>
+                </a>
+                </div>
+                <div class="image3">
+                    <a href="maroctradition.html">
+                    <div class="dashboard-card3" onclick="toggleDashboardCard(this)">
+                        <h5 class="dashboard-card-title">Formation 3</h5>
+                        <img class="dashboard-card-image" src="maroc.png" alt="Formation 3">
+                        
+                       
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    <footer>
+        <div class="membres">
+            <h3 class="mm">Membres du Projet</h3>
+            <ul>
+                <li>Yousra HACHMI</li>
+                <li>Meryem SOBI</li>
+                <li>Yijia SONG</li>
+                
+            </ul>
+        </div>
+    
+        <div class="rapports">
+            <h3 class="mm">Rapports</h3>
+            <p>Consultez notre rapport aux formats :</p>
+            <ul>
+                <li><a href="texte argumentatif projet CWAC.pdf" target="_blank">Traitement de texte</a></li>
+                <li><a href="RapportEcoleDuMonde.pdf" target="_blank">Rapport PDF</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
