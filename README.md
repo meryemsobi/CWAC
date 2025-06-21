@@ -32,4 +32,5 @@ Ce site web est volontairement **simplifié**, avec un contenu **fictif**. Il a 
 
 ---
 
-## ⛓️‍💥 Accéder au site via ce lien -> https://meryemsobi.github.io/CWAC/index.html
+## ⛓️‍💥 Accéder au site via ce lien -> https://meryemsobi.github.io/Site_Web_d_Ecole_Fictive
+
